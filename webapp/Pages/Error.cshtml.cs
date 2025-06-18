@@ -8,6 +8,7 @@ namespace webapp.Pages
     [IgnoreAntiforgeryToken]
     public class ErrorModel : PageModel
     {
+        // My second change
         public string? RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
